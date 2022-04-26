@@ -1,0 +1,91 @@
+T1D8C 012:394.914   SEGGER J-Link V7.60 Log File
+T1D8C 012:394.980   DLL Compiled: Dec 14 2021 11:35:29
+T1D8C 012:394.991   Logging started @ 2022-01-20 06:21
+T1D8C 012:395.000 - 13.590ms
+T1D8C 012:395.015 JLINK_SetWarnOutHandler(...)
+T1D8C 012:395.023 - 0.013ms
+T1D8C 012:395.036 JLINK_OpenEx(...)
+T1D8C 012:396.216   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1D8C 012:396.551   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1D8C 012:396.781   Decompressing FW timestamp took 205 us
+T1D8C 012:402.977   Hardware: V9.70
+T1D8C 012:403.001   S/N: 59768862
+T1D8C 012:403.011   OEM: SEGGER
+T1D8C 012:403.021   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T1D8C 012:404.967   TELNET listener socket opened on port 19021
+T1D8C 012:410.343   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T1D8C 012:410.488   WEBSRV Webserver running on local port 19080
+T1D8C 012:416.753 - 21.733ms returns "O.K."
+T1D8C 012:416.786 JLINK_GetEmuCaps()
+T1D8C 012:416.794 - 0.011ms returns 0xB9FF7BBF
+T1D8C 012:416.820 JLINK_TIF_GetAvailable(...)
+T1D8C 012:417.041 - 0.242ms
+T1D8C 012:417.091 JLINK_SetErrorOutHandler(...)
+T1D8C 012:417.099 - 0.028ms
+T1D8C 012:417.129 JLINK_ExecCommand("ProjectFile = "E:\BLE\Code\nRF5SDK1702d674dde\nRF5_SDK_17.0.2_d674dde\examples\peripheral\01Tho_blinky\pca10040\blank\arm5_no_packs\JLinkSettings.ini"", ...). 
+T1D8C 012:417.772 - 0.649ms returns 0x00
+T1D8C 012:418.257 JLINK_ExecCommand("Device = nRF52832_xxAA", ...). 
+T1D8C 012:418.615   Device "NRF52832_XXAA" selected.
+T1D8C 012:418.772 - 0.489ms returns 0x00
+T1D8C 012:418.785 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T1D8C 012:418.797 - 0.005ms returns 0x01
+T1D8C 012:418.807 JLINK_GetHardwareVersion()
+T1D8C 012:418.814 - 0.010ms returns 97000
+T1D8C 012:418.827 JLINK_GetDLLVersion()
+T1D8C 012:418.834 - 0.010ms returns 76000
+T1D8C 012:418.843 JLINK_GetOEMString(...)
+T1D8C 012:418.853 JLINK_GetFirmwareString(...)
+T1D8C 012:418.860 - 0.009ms
+T1D8C 012:418.871 JLINK_GetDLLVersion()
+T1D8C 012:418.877 - 0.010ms returns 76000
+T1D8C 012:418.887 JLINK_GetCompileDateTime()
+T1D8C 012:418.893 - 0.009ms
+T1D8C 012:418.904 JLINK_GetFirmwareString(...)
+T1D8C 012:418.911 - 0.009ms
+T1D8C 012:418.921 JLINK_GetHardwareVersion()
+T1D8C 012:418.927 - 0.009ms returns 97000
+T1D8C 012:418.937 JLINK_GetSN()
+T1D8C 012:418.944 - 0.010ms returns 59768862
+T1D8C 012:418.954 JLINK_GetOEMString(...)
+T1D8C 012:418.967 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T1D8C 012:420.019 - 1.074ms returns 0x00
+T1D8C 012:420.051 JLINK_HasError()
+T1D8C 012:420.064 JLINK_SetSpeed(500)
+T1D8C 012:420.229 - 0.188ms
+T1D8C 012:420.526 JLINK_HasError()
+T1D8C 012:420.540 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T1D8C 012:420.547 - 0.010ms returns JLINKARM_RESET_TYPE_NORMAL
+T1D8C 012:420.557 JLINK_Reset()
+T1D8C 012:420.803   InitTarget() start
+T1D8C 012:420.820    J-Link Script File: Executing InitTarget()
+T1D8C 012:533.181   InitTarget() end
+T1D8C 012:715.008   InitTarget() start
+T1D8C 012:715.192    J-Link Script File: Executing InitTarget()
+T1D8C 012:828.083   InitTarget() end
+T1D8C 012:936.615 - 516.131ms
+T1D8C 012:936.775 JLINK_GetId()
+T1D8C 012:937.319   InitTarget() start
+T1D8C 012:937.411    J-Link Script File: Executing InitTarget()
+T1D8C 013:049.182   InitTarget() end
+T1D8C 013:229.776   InitTarget() start
+T1D8C 013:229.877    J-Link Script File: Executing InitTarget()
+T1D8C 013:341.979   InitTarget() end
+T1D8C 013:450.221 - 513.537ms returns 0x00000000
+T1D8C 013:450.400 JLINK_GetId()
+T1D8C 013:450.903   InitTarget() start
+T1D8C 013:451.030    J-Link Script File: Executing InitTarget()
+T1D8C 013:561.120   InitTarget() end
+T1D8C 013:739.752   InitTarget() start
+T1D8C 013:739.854    J-Link Script File: Executing InitTarget()
+T1D8C 013:850.652   InitTarget() end
+T1D8C 013:957.955 - 507.622ms returns 0x00000000
+T1D8C 013:976.297 JLINK_GetFirmwareString(...)
+T1D8C 013:976.382 - 0.107ms
+T0B18 022:273.217 Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T0B18 022:274.031 Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0B18 022:274.554 Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0B18 022:328.674 J-Link GUI Server info: "J-Link GUI server V7.60 "
+T1D8C 038:065.508 JLINK_Close()
+T1D8C 038:083.713 - 18.245ms
+T1D8C 038:083.761   
+T1D8C 038:083.771   Closed

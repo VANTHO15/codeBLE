@@ -1,0 +1,7 @@
+build/
+*.o
+*.old
+*.cert
+*.crt
+*.key
+cert/
