@@ -475,11 +475,11 @@ void uart_event_handle(app_uart_evt_t * p_event)
             break;
 
         case APP_UART_COMMUNICATION_ERROR:
-            APP_ERROR_HANDLER(p_event->data.error_communication);
+//            APP_ERROR_HANDLER(p_event->data.error_communication);
             break;
 
         case APP_UART_FIFO_ERROR:
-            APP_ERROR_HANDLER(p_event->data.error_code);
+//            APP_ERROR_HANDLER(p_event->data.error_code);
             break;
 
         default:
